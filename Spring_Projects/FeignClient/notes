@@ -1,0 +1,6 @@
+	 @CircuitBreaker(name="client-cb", fallbackMethod="generateResponse")
+
+	 	 public String generateResponse(Throwable throwable) {
+		 
+		 return "Server is unavailable temporarily, please try after some time";
+	 }

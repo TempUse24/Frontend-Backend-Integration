@@ -1,0 +1,5 @@
+spring:
+    application:
+        name: helloservice-resl4j
+server:
+    port: 8094
